@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#f6f8f9 ;
+}
+
+header {
+  height: 100px;
+  background-color: white;
+  padding: 5px;
+}
+
+header span {
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+header img {
+  vertical-align: middle;
+}
+
+.button {
+  display: inline-block;
+  background-color:#47adf1;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.button:first-child {
+  color: white;
+  margin-right: 5px;
+  margin-left: 15px;
+}
+
+.button:last-child {
+  color: #c5cbd0;
+  background-color: white;
+  border: 1px solid #c5cbd0;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.task-input {
+  background-color: white;
+  margin-top: 50px;
+  padding: 15px 0 10px 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 5px solid #f6f8f9;
+}
+
+.task-list {
+  background-color: white;
+  padding: 25px 30px;
+}
+
+.task-list ul {
+  padding-left: 15px;
+}
+
+.list-header {
+  list-style: none;
+  font-size: 2rem;
+
+}
+
+.list-header::before{
+  content: '\25BC';
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+
+
+.list-header ul li {
+  font-size: 1rem;
+}
+
+li::marker{
+  content: '';
+  display: none;
+}
+
+.tick::after {
+  content: '\2713';
+  color: green;
+  border: 1px solid green;
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+}
+
