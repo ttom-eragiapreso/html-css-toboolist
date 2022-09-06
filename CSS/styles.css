@@ -95,6 +95,24 @@ li::marker{
   border: 1px solid green;
   border-radius: 50%;
   display: inline-block;
-  width: 20px;
+  width: 13px;
+  padding-left: 4px;
+  margin-right: 10px;
+  font-size: .75rem;
 }
 
+.cross::after{
+  content: '\2717';
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  display: inline-block;
+  width: 13px;
+  padding-left: 4px;
+  margin-right: 10px;
+  font-size: .75rem;
+}
+
+.list-header ul {
+  padding: 0;
+}
