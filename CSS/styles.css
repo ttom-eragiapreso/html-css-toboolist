@@ -1,17 +1,25 @@
+/* Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
 body {
   background-color:#f6f8f9 ;
 }
 
 header {
-  height: 100px;
   background-color: white;
-  padding: 5px;
+  padding: 20px 5px;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  min-width: 1200px;
 }
 
 header span {
@@ -20,7 +28,8 @@ header span {
 
 }
 
-header img {
+header img,
+header span {
   vertical-align: middle;
 }
 
@@ -49,10 +58,6 @@ li {
   border: 1px solid #c5cbd0;
 }
 
-.container {
-  width: 75%;
-  margin: 0 auto;
-}
 
 .task-input {
   background-color: white;
@@ -105,10 +110,11 @@ li::marker{
   border: 1px solid green;
   border-radius: 50%;
   display: inline-block;
-  width: 13px;
-  padding-left: 4px;
   margin-right: 10px;
+  width: 15px;
+  height: 15px;
   font-size: .75rem;
+  text-align: center;
 }
 
 .cross::after{
@@ -117,10 +123,11 @@ li::marker{
   border: 1px solid red;
   border-radius: 50%;
   display: inline-block;
-  width: 13px;
-  padding-left: 4px;
   margin-right: 10px;
+  width: 15px;
+  height: 15px;
   font-size: .75rem;
+  text-align: center;
 }
 
 .list-header ul {

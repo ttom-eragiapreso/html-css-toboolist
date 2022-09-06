@@ -5,14 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Toboolist</title>
-  <link rel="stylesheet" href="./CSS/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
+  <!-- Logo + Titolo -->
+
   <header>
-    <img src="./assets/img/Logo.png" alt="logo">
+    <img src="assets/img/Logo.png" alt="logo">
     <span>Toboolist</span>
   </header>
+
+    <!-- Task Buttons -->
 
   <main>
     <div class="task-input container">
@@ -20,14 +24,17 @@
       <span class="button">Add Section</span>
     </div>
 
+
+    <!-- Contenitore di tutte le tasks -->
+
     <div class="task-list container">
       <ul>
-        <li class="list-header">New Task
+        <li class="list-header"><span>New Task</span>
           <ul>
             <li><span class="tick"></span>Quarterly Newsletter<span class="tag tag-editorial">Editorial</span></li>
           </ul>
         </li>
-        <li class="list-header">Today
+        <li class="list-header"><span>Today</span>
           <ul>
             <li><span class="tick"></span>Recruiting blog post<span class="tag tag-editorial">Editorial</span></li>
             <li><span class="tick"></span>Mobile app launch<span class="tag tag-goals">Q1 goals</span></li>
@@ -35,7 +42,7 @@
             <li><span class="tick"></span>Summit update to mobile storefronts<span class="tag tag-mobile">Mobile</span></li>
           </ul>
         </li>
-        <li class="list-header">Upcoming
+        <li class="list-header"><span>Upcoming</span>
           <ul>
             <li><span class="cross"></span>Schedule meeting with Alex</li>
             <li><span class="tick"></span>Homepage refresh<span class="tag tag-website">Website</span></li>
